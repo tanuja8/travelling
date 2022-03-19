@@ -9,7 +9,7 @@
     padding: 15px;
 }
 header{
-    background-color:palevioletred;
+    background-color:green;
     height: 60px;
 }
 .navbar{
@@ -66,13 +66,17 @@ text-align: center;
 padding: 15px;
 }
 .quotes-area{
-background-color:grey;
+background-image: url('sunset.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
 padding: 50px 0;
 }
 .quotes-area p,h4{
 width: 60%;
 text-align: center;
 margin: 0 auto;
+color:aliceblue;
+font-size: 40px;
 }
 .img-area img{
     width: 100%;
@@ -82,40 +86,50 @@ margin: 0 auto;
     text-align: right;
 }
 .action-area{
-    
-    color: aliceblue;
+    color: blue;
+   
+}
+.call-in{
+    background-image: url('sunrise.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .connect-with-us{
     display:flex;
-    background-color: rgb(60, 60, 250);
+    background-color: rgb(221, 156, 57);
     width: 70%;
     margin: 0 auto;
     padding: 30px;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 10px;
+    
 }
 .action-button{
     align-items: center;
     
 }
 .Sign-up{
-    color:black;
+    color:blue;
     padding: 3px 10px;
     margin: 30px 40px;
-}
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
 }
 .call-in{
- padding: 50px;
+ padding: 30px;
 }
 footer{
-    background-color:rgb(39, 38, 38); 
+    background-color:green; 
     color: aliceblue;
     text-align: center;
     padding: 40px;
+    font-size: 25px;
 }
 footer p a{
     text-decoration: none;
-    color: brown;
+    color: blue;
 }
 .main-containt{
     background-image: url('sand.jpg');
@@ -127,4 +141,7 @@ footer p a{
 .img-area{
     height: 200px;
     width: 300px;
+}
+.img-area h2{
+    text-align: center;
 }
